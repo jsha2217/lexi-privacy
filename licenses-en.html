@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lexi Data Sources and Licenses</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto;
+    max-width: 760px;
+    padding: 32px 20px 80px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+      "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    line-height: 1.7;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #121212; }
+    a { color: #6cb6ff; }
+    th, td { border-color: #333 !important; }
+    thead th { background: #1e1e1e !important; }
+    .meta, .note { color: #9a9a9a !important; }
+    hr { border-color: #2a2a2a !important; }
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  h2 { font-size: 1.2rem; margin-top: 2.2rem; border-bottom: 1px solid #e5e5e5; padding-bottom: 6px; }
+  .lang { font-size: 0.9rem; margin: 0 0 1.2rem; }
+  .meta { color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .note { color: #666; font-size: 0.9rem; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.95rem; }
+  th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #f5f5f5; }
+  ul { padding-left: 1.2rem; }
+  li { margin: 4px 0; }
+  hr { border: none; border-top: 1px solid #eee; margin: 2.5rem 0 1.5rem; }
+  code { font-size: 0.9em; overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+
+<p class="lang"><a href="licenses.html">한국어</a> · <b>English</b> &nbsp;|&nbsp; <a href="en.html">Privacy Policy</a> · <a href="terms-en.html">Terms of Service</a></p>
+
+<h1>Lexi Data Sources and Licenses</h1>
+<p class="meta">Last updated: September 29, 2026</p>
+
+<p>
+  Lexi provides English meaning suggestions from an on-device dictionary pack built from the public data below.
+  Dictionary lookup runs offline on the device; words entered by users are not sent to an external server for dictionary lookup.
+</p>
+
+<h2>1. Bundled dictionary pack</h2>
+<table>
+  <tbody>
+    <tr><th>Pack ID</th><td><code>en-ko-basic</code></td></tr>
+    <tr><th>Version</th><td><code>2026.09.24-v1</code></td></tr>
+    <tr><th>Contents</th><td>5,000 English headwords · 12,061 Korean meaning suggestions</td></tr>
+    <tr><th>SHA-256</th><td><code>3a14ac9fd25c22309fc1bd1f06506b1cafaa1733484f527a9d2c645bc4679dd3</code></td></tr>
+  </tbody>
+</table>
+
+<h2>2. Kaikki / English Wiktionary</h2>
+<ul>
+  <li>Use: English headwords, parts of speech, pronunciations, and source definitions</li>
+  <li>Data source: <a href="https://kaikki.org/dictionary/English/">Kaikki English dictionary</a></li>
+  <li>Original source: <a href="https://en.wiktionary.org/">English Wiktionary</a></li>
+  <li>Licenses: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> and <a href="https://www.gnu.org/licenses/fdl-1.3.html">GFDL</a></li>
+</ul>
+<p>
+  Lexi selected and normalized entries for learning suitability, connected some inflected forms to their lemmas,
+  and generated concise Korean learning suggestions grounded in the source dictionary information. These changes
+  are disclosed here, and dictionary data derived from the source material is subject to the CC BY-SA 4.0 terms.
+</p>
+<p class="note">Kaikki, Wiktionary, and their contributors do not sponsor or endorse Lexi.</p>
+
+<h2>3. wordfreq</h2>
+<ul>
+  <li>Use: frequency-assisted selection and ordering of English learning candidates</li>
+  <li>Project: <a href="https://github.com/rspeer/wordfreq">wordfreq</a> by Robyn Speer</li>
+  <li>Code license: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></li>
+  <li>Data notices: <a href="https://github.com/rspeer/wordfreq/blob/master/NOTICE.md">wordfreq NOTICE</a></li>
+</ul>
+<p class="note">
+  Source-specific notices and licenses may apply to the frequency data combined by wordfreq.
+  See the upstream data notices for details.
+</p>
+
+<h2>4. Scope</h2>
+<p>
+  The licenses above apply to the identified source material and dictionary-pack data derived from it.
+  Unless separately stated, they do not apply to the Lexi application code, brand, graphics, or other content as a whole.
+</p>
+
+<hr />
+<p class="note">License inquiries: <a href="mailto:splats-clicker.5p@icloud.com">splats-clicker.5p@icloud.com</a></p>
+
+</body>
+</html>

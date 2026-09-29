@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lexi 데이터 출처 및 라이선스</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto;
+    max-width: 760px;
+    padding: 32px 20px 80px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+      "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+    line-height: 1.7;
+    color: #1a1a1a;
+    background: #ffffff;
+    word-break: keep-all;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #121212; }
+    a { color: #6cb6ff; }
+    th, td { border-color: #333 !important; }
+    thead th { background: #1e1e1e !important; }
+    .meta, .note { color: #9a9a9a !important; }
+    hr { border-color: #2a2a2a !important; }
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  h2 { font-size: 1.2rem; margin-top: 2.2rem; border-bottom: 1px solid #e5e5e5; padding-bottom: 6px; }
+  .lang { font-size: 0.9rem; margin: 0 0 1.2rem; }
+  .meta { color: #666; font-size: 0.9rem; margin-bottom: 1.5rem; }
+  .note { color: #666; font-size: 0.9rem; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 0.95rem; }
+  th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; vertical-align: top; }
+  thead th { background: #f5f5f5; }
+  ul { padding-left: 1.2rem; }
+  li { margin: 4px 0; }
+  hr { border: none; border-top: 1px solid #eee; margin: 2.5rem 0 1.5rem; }
+  code { font-size: 0.9em; overflow-wrap: anywhere; }
+</style>
+</head>
+<body>
+
+<p class="lang"><b>한국어</b> · <a href="licenses-en.html">English</a> &nbsp;|&nbsp; <a href="index.html">개인정보처리방침</a> · <a href="terms.html">이용약관</a></p>
+
+<h1>Lexi 데이터 출처 및 라이선스</h1>
+<p class="meta">최종 수정일: 2026년 9월 29일</p>
+
+<p>
+  Lexi의 영어 추천 뜻은 아래 공개 데이터로 제작한 로컬 사전팩에서 제공됩니다.
+  사전 검색은 기기에서 오프라인으로 처리되며, 입력한 단어는 사전 검색을 목적으로 외부 서버에 전송되지 않습니다.
+</p>
+
+<h2>1. 현재 탑재된 사전팩</h2>
+<table>
+  <tbody>
+    <tr><th>팩 ID</th><td><code>en-ko-basic</code></td></tr>
+    <tr><th>버전</th><td><code>2026.09.24-v1</code></td></tr>
+    <tr><th>내용</th><td>영어 표제어 5,000개 · 한국어 추천 뜻 12,061개</td></tr>
+    <tr><th>SHA-256</th><td><code>3a14ac9fd25c22309fc1bd1f06506b1cafaa1733484f527a9d2c645bc4679dd3</code></td></tr>
+  </tbody>
+</table>
+
+<h2>2. Kaikki / English Wiktionary</h2>
+<ul>
+  <li>용도: 영어 표제어, 품사, 발음 및 원문 정의</li>
+  <li>원자료: <a href="https://kaikki.org/dictionary/English/">Kaikki English dictionary</a></li>
+  <li>원출처: <a href="https://en.wiktionary.org/">English Wiktionary</a></li>
+  <li>라이선스: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> 및 <a href="https://www.gnu.org/licenses/fdl-1.3.html">GFDL</a></li>
+</ul>
+<p>
+  Lexi는 원자료를 학습 적합성 기준으로 선별·정규화하고, 일부 활용형을 기본형에 연결했으며,
+  원문 사전 정보를 근거로 짧은 한국어 학습용 추천 뜻을 생성했습니다. 이러한 변경 사실을 명시하며,
+  사전 원자료에서 파생된 데이터에는 CC BY-SA 4.0의 조건이 적용됩니다.
+</p>
+<p class="note">Kaikki, Wiktionary 및 각 기여자는 Lexi를 후원하거나 보증하지 않습니다.</p>
+
+<h2>3. wordfreq</h2>
+<ul>
+  <li>용도: 학습용 영어 후보 선정 및 빈도 순위 보조</li>
+  <li>프로젝트: <a href="https://github.com/rspeer/wordfreq">wordfreq</a> (Robyn Speer)</li>
+  <li>코드 라이선스: <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License 2.0</a></li>
+  <li>데이터 고지: <a href="https://github.com/rspeer/wordfreq/blob/master/NOTICE.md">wordfreq NOTICE</a></li>
+</ul>
+<p class="note">
+  wordfreq가 결합한 빈도 자료에는 출처별 고지와 라이선스가 적용될 수 있습니다.
+  자세한 내용은 위 데이터 고지 원문을 참조하세요.
+</p>
+
+<h2>4. 적용 범위</h2>
+<p>
+  위 라이선스는 해당 사전 원자료와 그로부터 파생된 사전팩 데이터에 적용됩니다.
+  별도로 표시되지 않는 한 Lexi 앱의 코드, 브랜드, 그래픽 및 기타 콘텐츠 전체에 적용되는 것은 아닙니다.
+</p>
+
+<hr />
+<p class="note">라이선스 관련 문의: <a href="mailto:splats-clicker.5p@icloud.com">splats-clicker.5p@icloud.com</a></p>
+
+</body>
+</html>
